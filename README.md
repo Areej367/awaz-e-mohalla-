@@ -70,8 +70,8 @@ No installation or build is required.
 
 **Option 2: local server (recommended, needed for PWA/service worker)**
 ```bash
-git clone https://github.com/<your-username>/awaz-e-mohalla.git
-cd awaz-e-mohalla
+git clone https://github.com/Areej367/awaz-e-mohalla-.git
+cd awaz-e-mohalla-
 
 # any one of these:
 python3 -m http.server 8000
@@ -129,31 +129,39 @@ A rule-based scoring system that assigns **Low / Medium / High / Critical** prio
 
 ## 📸 Screenshots
 
-> Add your screenshots to a `screenshots/` folder and update the paths below.
+### Citizen App
 
-| Home | Report an Issue |
+| Home | Main Page |
 |---|---|
-| ![Home](screenshots/home.png) | ![Report](screenshots/report-issue.png) |
+| ![Home](screenshot/home.png) | ![Main](screenshot/main.png) |
 
-| Community Feed | Profile Prompt |
+| Report an Issue | User Profile |
 |---|---|
-| ![Community](screenshots/community.png) | ![Profile](screenshots/profile-prompt.png) |
+| ![Report](screenshot/report.png) | ![User](screenshot/user.png) |
 
-| Admin Dashboard | Admin Reports |
+| Dark Mode |
+|---|
+| ![Dark Mode](screenshot/darkmode.png) |
+
+### Admin Panel
+
+| Admin Login | Admin Reports |
 |---|---|
-| ![Admin](screenshots/admin-dashboard.png) | ![Admin Reports](screenshots/admin-reports.png) |
+| ![Admin Login](screenshot/adminlogin.png) | ![Admin](screenshot/admin.png) |
+
+| Admin Dashboard |
+|---|
+| ![Dashboard](screenshot/dashboard.png) |
 
 ---
 
-## 👥 Team Contributions
+## 👤 Team Contributions
+
+This project was designed and built **solo** by **Areej Maryam** ([@Areej367](https://github.com/Areej367)).
 
 | Member | Role | Contributions |
 |---|---|---|
-| **Your Name** | e.g. Full-stack Developer | e.g. Core app, smart priority engine, admin dashboard |
-| **Member 2** | e.g. UI/UX Designer | e.g. Design system, Urdu/RTL layout, dark mode |
-| **Member 3** | e.g. Research & Testing | e.g. Problem research, test cases, documentation |
-
-> Replace the placeholders above with your actual team details.
+| **Areej Maryam** | Solo Developer | Problem research, UI/UX design, frontend development, smart priority engine, duplicate detection and "Me Too" verification, Urdu localisation, admin dashboard, PWA setup, testing and documentation |
 
 ---
 
@@ -171,4 +179,4 @@ Released under the MIT License. Add a `LICENSE` file if you plan to publish it.
 
 ---
 
-*Built with ❤️ for better neighbourhoods in Pakistan.*
+*Built with ❤️ by Areej Maryam for better neighbourhoods in Pakistan.*
